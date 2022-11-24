@@ -159,7 +159,7 @@ spec:
             - name: AUTH_ROLE_PUBLIC
               value: "Public"
             - name: AIRFLOW__WEBSERVER__ENABLE_PROXY_FIX
-              value: "False"
+              value: "True"
             - name: OAUTH_API_BASE_URL
               value: "https://openshift.default.svc.cluster.local:443"
             - name: REQUESTS_CA_BUNDLE
