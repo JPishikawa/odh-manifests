@@ -142,7 +142,7 @@ spec:
             - name: AIRFLOW__WEBSERVER__RBAC
               value: "False"
             - name: AIRFLOW__WEBSERVER__AUTHENTICATE
-              value: "False"
+              value: "True"
             - name: AIRFLOW_USERNAME
               value: user
             - name: AIRFLOW_PASSWORD
