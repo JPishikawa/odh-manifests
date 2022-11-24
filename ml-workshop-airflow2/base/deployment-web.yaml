@@ -105,8 +105,8 @@ spec:
                 secretKeyRef:
                   name: app-aflow-airflow
                   key: airflow-fernetKey
-            - name: AIRFLOW__KUBERNETES__VERIFY_SSL
-              value: "False"
+            - name: PYTHONHTTPSVERIFY
+              value: 0
             - name: AIRFLOW_LOAD_EXAMPLES
               value: "no"
             - name: AIRFLOW_DATABASE_NAME
