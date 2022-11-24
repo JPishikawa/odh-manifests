@@ -105,6 +105,8 @@ spec:
                 secretKeyRef:
                   name: app-aflow-airflow
                   key: airflow-fernetKey
+            - name: WTF_CSRF_ENABLED
+              value: "False"
             - name: PYTHONHTTPSVERIFY
               value: "0"
             - name: AIRFLOW_LOAD_EXAMPLES
