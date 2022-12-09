@@ -63,7 +63,8 @@ spec:
             - /git-sync
           env:
             - name: GIT_SYNC_REPO
-              value:  'http://gitea.gitea.svc.cluster.local:3000/gitea-admin/dags'
+              value: 'http://gitlab-webservice-default.gitlab-system.svc.cluster.local:8080/root/dags'
+              #value:  'http://gitea.gitea.svc.cluster.local:3000/gitea-admin/dags'
               #value: 'https://github.com/JPishikawa/dags'
             - name: GIT_SYNC_DEST
               value: gitdags
